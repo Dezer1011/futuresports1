@@ -1,0 +1,56 @@
+/* Member Sign-Up */
+
+.signup-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 0;
+    background-image: url(C:\Users\sdcus\OneDrive\Desktop\futuresports\futuresports\public\images\banner.jpg);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-section h2 {
+    margin-bottom: 20px;
+    color: #fffbfb;
+    font-size: 24px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 400px; 
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.signup-form input:focus {
+    border-color: #999;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f70303; 
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1E5DB9; 
+}
+

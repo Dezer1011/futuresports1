@@ -1,0 +1,76 @@
+/* Comments Section */
+.comments {
+    background-color: #333;
+    padding: 60px; 
+    text-align: center;
+    border-radius: 5px;
+}
+
+#comments h2 {
+    color: red;
+    margin-bottom: 30px; 
+}
+
+.comment-input {
+    margin-top: 30px; 
+}
+
+.comment-input textarea {
+    width: 90%; 
+    height: 350px; 
+    padding: 40px; 
+    background-color: #555;
+    color: white;
+    font-size: 16px; 
+    border: 1px solid #444; 
+    border-radius: 7px; 
+    resize: vertical;
+    margin-bottom: 15px;
+}
+
+.comment-input button {
+    padding: 12px 25px; 
+    font-size: 16px; 
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 15px auto;
+}
+
+.comment-input button:hover {
+    background-color: darkred;
+}
+
+.comment-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.comment-list li {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 12px; 
+    border-radius: 7px; 
+    margin: 15px 0; 
+    color: white;
+    font-size: 16px; 
+}
+
+.comment-list li strong {
+    color: red;
+}
+
+#comments p {
+    color: white;
+    font-size: 16px; 
+}
+
+#comments a {
+    color: red;
+    text-decoration: underline;
+}
+
+#comments a:hover {
+    color: darkred;
+}

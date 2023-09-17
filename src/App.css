@@ -1,0 +1,43 @@
+/* App section */
+
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap');
+
+/* Base styling */
+body {
+    font-family: 'Tektur', cursive;
+    background-color: #333;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    display: block;
+    flex-direction: column;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.center-text {
+    text-align: center;
+}
+
+

@@ -1,0 +1,41 @@
+/* Login Section */
+.login-section {
+    background-color: #333; 
+    padding: 80px;
+    width: 40%; 
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto; 
+}
+
+.login-section h2 {
+    color: red;
+}
+
+.login-form {
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+}
+
+.login-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: rgb(235, 35, 12);
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+}
+
+.login-form input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}

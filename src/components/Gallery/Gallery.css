@@ -1,0 +1,137 @@
+/* Gallery section */
+#gallery {
+    position: relative;
+    width: 45%; 
+    margin-right: 2%; 
+    float: left; 
+    margin-left: 50px;
+    min-height: 300px;
+}
+
+#gallery h2 {
+    margin: 10px 0;
+    color: red;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+
+.carousel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 83%;
+    height: 83%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    pointer-events: none;
+}
+
+.carousel img.active {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1000px;  
+    height: 600px;
+    margin: 0 auto;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Overlay */
+.overlay {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow-y: auto; 
+    z-index: 1000; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.overlay img {
+    width: 50%; 
+    display: block; 
+    transform: scale(0.8);
+    max-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overlay .arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: white;
+}
+
+.overlay .arrow.prevArrow { 
+    left: 10px;
+}
+
+.overlay .arrow.nextArrow { 
+    right: 10px;
+}
+
+
+.overlay #closeButton {
+    position: absolute; 
+    top: 10px; 
+    right: 10px;
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+/* Button styles */
+#closeButton {
+    position: absolute;
+    top: 20px; 
+    right: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%; 
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+#closeButton:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#closeButton:before, #closeButton:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 2px;
+    background-color: #333;  
+    transform-origin: center;
+}
+
+#closeButton:before {
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+#closeButton:after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}

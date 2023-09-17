@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap');
+
+/* General styling */
+body {
+    font-family: 'Tektur', cursive;
+    background-color: #333;
+    color: white;
+}
+
+/* Player Stats Section */
+#player-stats {
+    font-family: 'Tektur', cursive;
+    color: white;
+    background-color: #333;
+}
+
+#player-stats h2 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#player-stats table {
+    border-collapse: collapse; 
+    width: 80%; 
+    margin: 20px auto;  
+    background-image: url(C:\Users\sdcus\OneDrive\Desktop\futuresports\futuresports\public\images\30.jpg);
+}
+
+#player-stats th, 
+#player-stats td {
+    border: 2px solid white; 
+    padding: 8px 12px;
+    text-align: left;
+}
+
+#player-stats th {
+    background-color: rgba(255, 255, 255, 0.1); 
+    color: white;
+}
+
+#player-stats tr:hover {
+    background-color: rgba(255, 255, 255, 0.05); 
+}
+
+#player-stats td, 
+#player-stats th {
+    padding: 12px 20px;
+}
+

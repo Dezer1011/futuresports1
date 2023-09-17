@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap');
+
+/* General styling */
+body {
+    font-family: 'Tektur', cursive;
+    background-color: #333;
+    color: white;
+}
+
+/* Video Section */
+.video-section iframe {
+    width: 45%;
+    height: 601px;
+    margin-top: 50px;
+    margin-right: 50px;
+    float: right;
+}
+
+main, aside {
+    float: right;
+    padding: 40px;
+    margin-left: 800px;
+}
+
+main {
+    width: 70%;
+}
+
+aside {
+    width: 28%; 
+}

@@ -1,0 +1,41 @@
+/*UpcomingMatches section*/
+
+#upcoming-matches {
+    font-family: 'Tektur', cursive;
+    color: white;
+    background-color: #333;
+    padding: 20px;
+}
+
+#upcoming-matches h2 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#upcoming-matches table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto; 
+    background-image: url(C:\Users\sdcus\OneDrive\Desktop\futuresports\futuresports\public\images\29.jpg);
+}
+
+#upcoming-matches th,
+#upcoming-matches td {
+    border: 2px solid white;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+#upcoming-matches th {
+    background-color: rgba(255, 255, 255, 0.1); 
+    color: white;
+}
+
+#upcoming-matches tr:hover {
+    background-color: rgba(255, 255, 255, 0.05); 
+}
+
+#upcoming-matches td,
+#upcoming-matches th {
+    padding: 12px 20px;
+}
