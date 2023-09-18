@@ -16,7 +16,7 @@
     border-collapse: collapse;
     width: 80%;
     margin: 20px auto; 
-    background-image: url(C:\Users\sdcus\OneDrive\Desktop\futuresports\futuresports\public\images\29.jpg);
+    background-image: url('../Gallery/images/29.jpg');
 }
 
 #upcoming-matches th,

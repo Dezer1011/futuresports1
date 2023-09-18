@@ -7,7 +7,7 @@
     justify-content: center;
     width: 100%;
     padding: 50px 0;
-    background-image: url(C:\Users\sdcus\OneDrive\Desktop\futuresports\futuresports\public\images\banner.jpg);
+    background-image: url('../Gallery/images/banner.jpg');
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }

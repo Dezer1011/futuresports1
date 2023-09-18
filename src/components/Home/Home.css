@@ -10,7 +10,7 @@ body {
 /* Home Section */
 .home-section {
     background-color: rgba(0, 0, 0, 0.6);
-    background-image: url(C:\Users\sdcus\OneDrive\Desktop\futuresports\futuresports\public\images\30.jpg); /* Adjust path if necessary */
+    background-image: url('../Gallery/images/30.jpg');
     background-blend-mode: multiply;
     padding: 20px;
     text-align: center;
