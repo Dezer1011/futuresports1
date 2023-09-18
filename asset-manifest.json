@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Dezer1011/futuresports1.git/static/css/main.728bef2a.css",
+    "main.js": "/Dezer1011/futuresports1.git/static/js/main.ab111305.js",
+    "static/js/787.34c56d2c.chunk.js": "/Dezer1011/futuresports1.git/static/js/787.34c56d2c.chunk.js",
+    "static/media/banner.jpg": "/Dezer1011/futuresports1.git/static/media/banner.756c4bde4a9fa9eafcf2.jpg",
+    "static/media/29.jpg": "/Dezer1011/futuresports1.git/static/media/29.5b273ace5d5236975cda.jpg",
+    "index.html": "/Dezer1011/futuresports1.git/index.html",
+    "main.728bef2a.css.map": "/Dezer1011/futuresports1.git/static/css/main.728bef2a.css.map",
+    "main.ab111305.js.map": "/Dezer1011/futuresports1.git/static/js/main.ab111305.js.map",
+    "787.34c56d2c.chunk.js.map": "/Dezer1011/futuresports1.git/static/js/787.34c56d2c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.728bef2a.css",
+    "static/js/main.ab111305.js"
+  ]
+}
