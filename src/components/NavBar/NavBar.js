@@ -11,7 +11,7 @@ import './NavBar.css';
 // Functional component for the Navigation Bar.
 function NavBar() {
     // Fetching user and the function to set the user from UserContext.
-    const { user, setUser } = useContext(UserContext);
+    const { user } = useContext(UserContext);
     // State for managing the search input value.
     const [searchValue, setSearchValue] = useState("");
     // State for managing the visibility of the login form.
