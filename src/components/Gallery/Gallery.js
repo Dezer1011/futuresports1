@@ -1,5 +1,14 @@
 // Importing React and necessary hooks for component creation
 import React, { useState, useEffect } from 'react';
+import img1 from "./images/1.jpg";
+import img2 from "./images/2.jpg";
+import img3 from "./images/3.jpg";
+import img4 from "./images/4.jpg";
+import img5 from "./images/5.jpg";
+import img6 from "./images/6.jpg";
+import img7 from "./images/7.jpg";
+import img8 from "./images/8.jpg";
+import img9 from "./images/9.jpg";
 import './Gallery.css';
 
 // Function component for the Gallery
@@ -11,17 +20,17 @@ function Gallery() {
 
     // image list
     const images = [
-        { src: "images/1.jpg", alt: "Image 1" },
-        { src: "images/2.jpg", alt: "Image 2" },
-        { src: "images/3.jpg", alt: "Image 3" },
-        { src: "images/4.jpg", alt: "Image 4" },
-        { src: "images/5.jpg", alt: "Image 5" },
-        { src: "images/6.jpg", alt: "Image 6" },
-        { src: "images/7.jpg", alt: "Image 7" },
-        { src: "images/8.jpg", alt: "Image 8" },
-        { src: "images/9.jpg", alt: "Image 9" }
+        { src: img1, alt: "Image 1" },
+        { src: img2, alt: "Image 2" },
+        { src: img3, alt: "Image 3" },
+        { src: img4, alt: "Image 4" },
+        { src: img5, alt: "Image 5" },
+        { src: img6, alt: "Image 6" },
+        { src: img7, alt: "Image 7" },
+        { src: img8, alt: "Image 8" },
+        { src: img9, alt: "Image 9" }
     ];
-
+    
     
     // useEffect to cycle through images at an interval
     useEffect(() => {
